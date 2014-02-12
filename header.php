@@ -17,6 +17,7 @@
 <link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>" />
 <?php wp_head(); ?>
 <?php woo_head(); ?>
+<meta rel="new" />
 </head>
 <body <?php body_class(); ?>>
 <?php woo_top(); ?>
